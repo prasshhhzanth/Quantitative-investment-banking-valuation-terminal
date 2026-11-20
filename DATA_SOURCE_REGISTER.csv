@@ -1,0 +1,9 @@
+Data Category,Preferred Source,URL,Verification Rule
+US financial statements,SEC EDGAR,https://www.sec.gov/edgar/search/,Verify fiscal year and units in 10-K
+Apple financial statements,Apple Investor Relations,https://investor.apple.com/,Cross-check 10-K and annual report
+Microsoft financial statements,Microsoft Investor Relations,https://www.microsoft.com/en-us/Investor/,Cross-check 10-K and annual report
+NVIDIA financial statements,NVIDIA Investor Relations,https://investor.nvidia.com/,Cross-check 10-K and annual report
+TCS financial statements,TCS Investor Relations,https://www.tcs.com/investor-relations,Use audited annual report and consolidated statements
+Reliance financial statements,Reliance Investor Relations,https://www.ril.com/investors,Use audited annual report; segment data for SOTP
+Indian market data,NSE India,https://www.nseindia.com/,Use Nifty 50 as local market benchmark
+Historical market prices,Yahoo Finance,https://finance.yahoo.com/,Convenience source; verify adjusted prices and ticker coverage
